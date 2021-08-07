@@ -92,7 +92,7 @@ var student= {
         State:  'Delhi',
         Pin: 110001
     },
-    displayname: function()
+    displaystatus: function()
     {
         console.log("working");
     }
@@ -100,7 +100,7 @@ var student= {
 
 console.log(student.name);
 console.log(student["address"]["Pin"]);
-console.log(student.displayname());
+console.log(student.displaystatus());
 student.hobbbies = ['football','technology','tennis'];
 
 console.log(student);
