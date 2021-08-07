@@ -82,3 +82,32 @@ var students =students1
 console.log(students)
 
 
+
+var student= {
+    name: 'Aadil',
+    age: '25',
+    gender: 'Male',
+    address: {
+        city: 'Delhi',
+        State:  'Delhi',
+        Pin: 110001
+    },
+    displayname: function()
+    {
+        console.log("working");
+    }
+}
+
+console.log(student.name);
+console.log(student["address"]["Pin"]);
+console.log(student.displayname());
+student.hobbbies = ['football','technology','tennis'];
+
+console.log(student);
+
+for (i=0; i<=hobbbies.length-1; i++)
+{
+    console.log(hobbbies[i]);
+}
+
+
